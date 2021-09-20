@@ -44,3 +44,22 @@ eyes.update(1 / 60); // can also pass in a custom timestep using THREE's Clock.
 npm install
 npm run build
 ```
+
+# Example
+
+To launch the example
+
+1. Ensure that dependencies and code built
+
+1. Launch host server e.g.
+
+
+```bash
+npm install -g http-server
+http-server
+```
+
+3. Launch the sample in your browser e.g. [https://localhost:8080/example](https://localhost:8080/example)
+
+Notes:
+1. The example will move head with mouse movement and shift key

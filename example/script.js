@@ -148,7 +148,9 @@ function onMouseMove(event)
     if (event.buttons & 0x1)
         rotate(event.clientX);
 
-    move(event.clientX, event.clientY);
+    if (event.getModifierState("Shift")) {
+        move(event.clientX, event.clientY);
+    }
 }
 
 function onTouchMove(event)
